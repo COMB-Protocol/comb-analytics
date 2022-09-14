@@ -1,4 +1,6 @@
-# Nuxt 3 Minimal Starter
+<img src="https://i.ibb.co/9wX7g82/banner.png"  >
+
+# Nuxt3 Documentation
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
