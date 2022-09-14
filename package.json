@@ -17,6 +17,7 @@
   "dependencies": {
     "@headlessui/vue": "^1.7.1",
     "@heroicons/vue": "^2.0.0",
+    "@vueuse/nuxt": "^9.2.0",
     "apexcharts": "^3.35.5",
     "caniuse-lite": "1.0.30001393",
     "eslint": "^8.23.1",
