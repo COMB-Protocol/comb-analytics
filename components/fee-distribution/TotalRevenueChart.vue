@@ -30,6 +30,12 @@ const options = computed<ApexOptions>(() => {
     title: {
       text: "Total Revenue Earned By Protocol",
     },
+    chart: {
+      dropShadow: {
+        enabled: true,
+        color: "rgba(0,143,251,0.75)",
+      },
+    },
     series: [
       {
         name: "Revenue",

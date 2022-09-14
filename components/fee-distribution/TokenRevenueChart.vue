@@ -24,12 +24,19 @@ const options = computed<ApexOptions>(() => {
     title: {
       text: "Total Revenue Earned By Token",
     },
+    chart: {
+      dropShadow: {
+        enabled: true,
+        color: "rgba(0,143,251,0.75)",
+      },
+    },
     series: [
       {
         name: "Revenue",
         data: revenue,
       },
     ],
+    colors: ["rgba(0,143,251,0.5)"],
     yaxis: {
       labels: {
         formatter: formatCompactCurrency,
@@ -49,7 +56,7 @@ const options = computed<ApexOptions>(() => {
 </script>
 
 <template>
-  <BorderContainer class="p-4">
+  <BorderContainer class="p-4 pb-0">
     <ClientApexChart type="bar" :series="options.series" :options="options" />
   </BorderContainer>
 </template>
