@@ -28,7 +28,7 @@ const options = computed<ApexOptions>(() => {
 
   return {
     title: {
-      text: "zCOMB Total Revenue Earned By Protocol",
+      text: "zCOMB Daily Revenue Earned By Protocol",
     },
     chart: {
       dropShadow: {
